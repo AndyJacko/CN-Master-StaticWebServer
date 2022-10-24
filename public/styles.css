@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.headercontainer {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #e4e4e4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Luckiest Guy", cursive;
+  border-bottom: 1px solid #666666;
+}
+
+.title {
+  padding: 5px 10px;
+  background: #cccccc;
+  font-size: 30px;
+  font-weight: bold;
+  border: 1px solid #999999;
+  border-radius: 3px;
+}
+
+.title:hover {
+  box-shadow: 2px 2px 3px #999999;
+}
+
+.navlinks {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  margin: 0 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a70000;
+}
+
+h1 {
+  margin: 10px;
+  font-family: "Luckiest Guy", cursive;
+  text-align: center;
+}
+
+section {
+  width: 70%;
+  padding: 20px;
+  margin: auto;
+  background: #cccccc;
+  border-radius: 3px;
+  border: 1px solid #999999;
+}
+
+p {
+  margin: 10px;
+}
+
+footer {
+  font-family: "Luckiest Guy", cursive;
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+  background: #e4e4e4;
+  border-top: 1px solid #666666;
+  border-bottom: 1px solid #666666;
+  color: #a70000;
+}
